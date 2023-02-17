@@ -1,8 +1,19 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./src/components/*.{html,ts,tsx}",
+    "./src/screens/**/*.{html,ts,tsx}",
+  ],
+  darkMode: "media",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "light-6/160": "#ffffff06",
+        "light-12/160": "#ffffff12",
+      },
+    },
+    fontFamily: {
+      main: ["Jost", "sans-serif"],
+    },
   },
   plugins: [],
-}
+};
