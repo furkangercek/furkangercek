@@ -11,7 +11,7 @@ export const Home = (): JSX.Element => {
   return (
     <>
       <Background />
-      <main className="jusitfy-center mx-auto flex h-screen w-full max-w-screen-md flex-col items-center gap-24 px-4 py-6">
+      <main className="jusitfy-center mx-auto flex h-screen w-full max-w-screen-md flex-col items-center gap-12 md:gap-24 px-4 py-6">
         <div className="flex flex-col gap-32">
           <SuperTitle />
           <Card>
@@ -31,11 +31,11 @@ export const Home = (): JSX.Element => {
               <Bold>To make something awesome, make it simple.</Bold>
             </Paragraph>
             <div className="alignItems flex justify-between gap-8">
-              <Button expand>About me</Button>
-              <Button expand>My work</Button>
-              <Button expand>My skills</Button>
+              <Button expand>About&nbsp;me</Button>
+              <Button expand>My&nbsp;work</Button>
+              <Button expand>My&nbsp;skills</Button>
               <Button expand primary>
-                Contact me!
+                Contact&nbsp;me!
               </Button>
             </div>
           </Card>
