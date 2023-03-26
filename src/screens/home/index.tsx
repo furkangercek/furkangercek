@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer";
 import { AboutMe } from "./AboutMe";
 import { Background } from "./Background";
 import { ContactMe } from "./ContactMe";
@@ -17,6 +18,7 @@ export const Home = (): JSX.Element => {
         <Skills />
         <Projects />
         <ContactMe />
+        <Footer />
       </main>
     </div>
   );
