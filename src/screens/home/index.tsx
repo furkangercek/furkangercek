@@ -1,6 +1,9 @@
 import { AboutMe } from "./AboutMe";
 import { Background } from "./Background";
+import { ContactMe } from "./ContactMe";
 import { MainSection } from "./MainSection";
+import { Projects } from "./Projects";
+import { Skills } from "./Skills";
 
 export const Home = (): JSX.Element => {
   return (
@@ -11,6 +14,9 @@ export const Home = (): JSX.Element => {
           <MainSection />
         </div>
         <AboutMe />
+        <Skills />
+        <Projects />
+        <ContactMe />
       </main>
     </div>
   );

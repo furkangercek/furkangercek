@@ -16,8 +16,8 @@ export const MainSection = (): JSX.Element => {
         <div className="flex items-center justify-between">
           <TitleIcon iconSrc={hand} title="Hello!" />
           <div className="alignItems flex gap-3">
-            <Icon name="github" clickable />
-            <Icon name="linkedIn" clickable />
+            <Icon name="github" onClick={() => {}} />
+            <Icon name="linkedIn" onClick={() => {}} />
           </div>
         </div>
         <Paragraph>

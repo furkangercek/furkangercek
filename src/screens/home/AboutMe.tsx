@@ -16,7 +16,7 @@ export const AboutMe = (): JSX.Element => {
   return (
     <Card>
       <TitleIcon iconSrc={dinosaur} title="About me!" />
-      <div className="flex w-full justify-between">
+      <div className="flex w-full flex-wrap justify-between gap-8">
         <ImageZoom
           src={about01}
           alt="Furkan Gercek1"
